@@ -66,7 +66,7 @@ endif()
 
 set(TRITON_TENSORFLOW_LIBNAME "libtensorflow_triton.so")
 set(TRITON_TENSORFLOW_LDFLAGS "-ltensorflow_triton")
-set(TRITON_TENSORFLOW_EXTRA_LIBPATH "/usr/local/lib/python3.8/dist-packages/tensorflow/include/external/llvm_openmp")
+set(TRITON_TENSORFLOW_EXTRA_LIBPATH "/usr/local/lib")
 
 
 #
